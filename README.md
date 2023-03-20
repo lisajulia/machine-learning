@@ -4,5 +4,4 @@ This repository contains solutions to the machine learning course on coursera (h
 
 ## Python Solutions
 
-Inside each exercies folder there is a folder named `*_py` which contains the
-solutions inpy python. 
+Inside each exercies folder there is a folder named `*_py` in which we will do the solutions in python. 
