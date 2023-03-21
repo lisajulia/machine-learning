@@ -10,7 +10,9 @@ J = 0
 theta= np.zeros(2)
 grad = np.zeros(len(theta))
 m ,ux,uy = np.shape(train_X)
-train_X= np.reshape(train_X,(m,ux*uy))
+n=ux*uy
+train_X= np.reshape(train_X,(m,n))
+theta=np.zeros(10,n)
 # h = sigmoid(train_X*theta)
 # print(h)
 # J = -np.transpose(train_y)*log(h)- np.transpose(np.ones(m,1)-train_y)*(log(ones(m,1)-h))
